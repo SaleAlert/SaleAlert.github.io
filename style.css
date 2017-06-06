@@ -28,6 +28,7 @@ canvas {
 
 .container{
   text-align:center;
+  font-family: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", "Arial", "sans-serif";
   padding:40px;
 	color: white;
 	height:100%;
