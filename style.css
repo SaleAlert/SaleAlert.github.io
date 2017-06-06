@@ -52,6 +52,7 @@ body {
   font:normal 75% Helvetica;
 	background-image: url('images/web-background.jpg');
 	background-size: cover;
+  background-repeat: no-repeat;
 }
 
 canvas {
@@ -104,7 +105,10 @@ p {
 }
 
 @media screen and (max-height: 600px) {
-
+  img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 p a {
