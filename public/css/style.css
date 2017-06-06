@@ -1,0 +1,65 @@
+/* ---- reset ---- */
+
+html, body {
+	height: 100%;
+	background-image: url('images/web-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+body {
+  margin: 0;
+  font:normal 75% Garamond, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.container{
+  text-align:center;
+  padding:40px;
+	color: white;
+	height:100%;
+	margin: auto 0;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-name {
+	font-size: 80px;
+	margin: 0 20px 25px 20px;
+	width: 100%;
+	display: inline-block;
+
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 150%;
+	padding-bottom: 15px;
+}
+
+p a {
+	color: lightblue;
+}
+
+p a:hover {
+	color: lightgreen;
+}
+
+a button{
+	background-color: white;
+}
+
+a button:hover {
+	background-color: yellow;
+}

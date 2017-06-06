@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'THSarabunNew';
+    src: url('thsarabunnew-webfont.eot');
+    src: url('thsarabunnew-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thsarabunnew-webfont.woff') format('woff'),
+         url('thsarabunnew-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'THSarabunNew';
+    src: url('thsarabunnew_bolditalic-webfont.eot');
+    src: url('thsarabunnew_bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thsarabunnew_bolditalic-webfont.woff') format('woff'),
+         url('thsarabunnew_bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'THSarabunNew';
+    src: url('thsarabunnew_italic-webfont.eot');
+    src: url('thsarabunnew_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thsarabunnew_italic-webfont.woff') format('woff'),
+         url('thsarabunnew_italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'THSarabunNew';
+    src: url('thsarabunnew_bold-webfont.eot');
+    src: url('thsarabunnew_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thsarabunnew_bold-webfont.woff') format('woff'),
+         url('thsarabunnew_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  margin: 0;
+  font:normal 75% Helvetica;
+	background-image: url('images/web-background.jpg');
+	background-size: cover;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.container{
+  text-align:center;
+  padding:40px;
+	color: white;
+	height:100%;
+	width:100%;
+	margin: auto 0;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-name {
+	font-size: 40px;
+	font-weight: 550;
+	margin-bottom: 15px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 150%;
+	padding-bottom: 15px;
+	display: inline-block;
+	font-family: 'THSarabunNew';
+}
+
+@media screen and (min-width: 600px) {
+  p {
+  	font-size: 20px;
+  }
+	.logo-name {
+		font-size: 80px;
+		margin-bottom: 25px;
+	}
+}
+
+p a {
+	color: lightgray;
+}
+
+p a:hover {
+	color: lightgreen;
+}
+
+a button{
+	background-color: white;
+}
+
+a button:hover {
+	background-color: yellow;
+}
