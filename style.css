@@ -75,13 +75,14 @@ canvas {
 	font-size: 40px;
 	font-weight: 550;
 	margin-bottom: 15px;
+  margin-top: 5px;
 	width: 100%;
 	white-space: nowrap;
 }
 
 img {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 
 p {
@@ -100,6 +101,10 @@ p {
 		font-size: 80px;
 		margin-bottom: 25px;
 	}
+}
+
+@media screen and (max-height: 600px) {
+
 }
 
 p a {
